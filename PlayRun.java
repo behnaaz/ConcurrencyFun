@@ -9,14 +9,13 @@ public class PlayRun implements Runnable {
 		t.start();
 		t2.start();
 		t3.start();
-		System.out.println("final " + m);
+		System.out.println("End of main " + m);
 	}
 
 
     @Override
     public void run() {
 	m = Thread.currentThread().getName();
-	 
-		System.out.println("inside" +  m + "   " +Thread.currentThread().getName());
+	System.out.println("inside" +  m + "   " +Thread.currentThread().getName());
     }
 }
