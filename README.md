@@ -36,8 +36,9 @@ insideThread-2   Thread-2
 
 insideThread-1   Thread-1
 
+===
 
-behnaz@mb-behnaz:~ $ java -cp . PlayRun
+java -cp . PlayRun
 
 final Thread-1
 
